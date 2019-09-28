@@ -285,10 +285,13 @@ footer {
   color: white;
   width: 30%;
   padding: 9px 14px;
+  opacity: 1;
+  transition: 1.5s;
 }
 .home .walk .walk-text .btn:hover {
   color: black;
   background-color: #c2c2d6;
+  opacity: 0.6;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
