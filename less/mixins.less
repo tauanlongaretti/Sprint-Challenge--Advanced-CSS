@@ -1,1 +1,23 @@
 // Mixins Here
+
+.displayFlex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.position {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+// Parametric mixin for button
+
+.button(@background, @radius, @size, @weight, @align, @color) {
+    background-color: @background;
+    border-radius: @radius;
+    font-size: @size;
+    font-weight: @weight;
+    text-align: @align;
+    color: @color;
+  }
